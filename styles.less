@@ -1,0 +1,190 @@
+body, ul, ol, dd, blockquote, q, hr, figure, form, 
+fieldset, legend, button, input, select, textarea,
+hgroup, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}   
+html { 
+  font-size: 100%; 
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased; 
+  -ms-text-size-adjust: 100%; 
+  overflow-y: scroll;
+}
+body, td {
+  font-family: Calibri, sans-serif, Veranda;
+  color: #484848;
+}
+header {
+    height: 226px;
+    background: transparent url('images/header-x.jpg') top left repeat-x;
+
+    #header {
+        margin: 0 auto;
+        position: relative;
+        width: 1076px;
+        height: 220px;
+        background: transparent url('images/header.jpg') top left no-repeat;
+    }
+}
+nav {
+    width: 697px;
+    height: 60px;
+    background: transparent url('images/nav-bg.jpg') top left no-repeat;
+    margin: 0 0 0 169px;
+    a {
+        display: block;
+        float: left;
+        height: 59px;
+    }
+    a#home {
+        width: 131px;
+        background: transparent url('images/home.jpg') top left no-repeat;
+        &:hover {background-position: -131px; }
+    }
+    a#portfolio {
+        width: 128px;
+        background: transparent url('images/portfolio.jpg') top left no-repeat;
+        &:hover {background-position: -128px;}
+    }
+    a#services {
+        width: 110px;
+        background: transparent url('images/services.jpg') top left no-repeat;
+        &:hover {background-position: -110px;}
+    }
+    a#testimonials {
+        width: 146px;
+        background: transparent url('images/testimonials.jpg') top left no-repeat;
+        &:hover {background-position: -146px;}
+    }
+    a#quote {
+        width: 181px;
+        background: transparent url('images/quote.jpg') top left no-repeat;
+        &:hover {background-position: -181px;}
+    }    
+}
+body {
+     background: #f0f0f0 url('images/body-x.jpg') top left repeat-x;
+}
+h1 {
+    font-family: 'Roboto','Raleway', sans-serif, Veranda;
+    color: #444444;
+    font-size: 21px;
+    font-weight: 300;
+    margin: 0 0 38px 0;
+    padding: 0 45px 0 45px;
+}
+email {
+  font-family: 'Roboto','Raleway', sans-serif, Veranda;
+  float: right;
+  font-size: 13px;
+  font-weight: 400;
+  color: #585858;
+  margin: -60px 0 0 0;
+  padding: 0 45px 0 0;
+}
+p {
+    text-align: justify;
+    margin: 0 0 20px 0;
+    font-family: Calibri, sans-serif, Veranda;
+    font-size: 14px;
+    font-weight: 400;
+    color: #5c5c5c;
+}
+input[type="text"] {
+  width: 300px;
+  height: 22px;
+  border: 1px solid #cfcfcf;
+}
+/*
+input[type="submit"] {
+  width: 160px;
+  height: 45px;
+  border: none;
+}
+*/
+textarea {
+   border: 1px solid #cfcfcf;
+    width: 500px;
+    height: 100px;
+}
+ul {
+  margin: 0 0 0 50px;
+}
+#wrapper {
+    background: #fafafa url('images/h1-bg.jpg') top right no-repeat;
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+    /*min-height: 104px;*/
+    
+    #push {
+        width: 810px;
+        height: 36px;
+    }
+    #h1-border {
+        width: 900px;
+        height: 29px;
+        background: #fafafa url('images/h1-border.jpg') top left no-repeat;
+    }
+    #content {
+        padding: 0 47px 47px 47px;
+        
+        section#cta {
+            background: transparent url('images/cta-glass.jpg') bottom left no-repeat;
+            width: 577px;
+            height: 137px;
+            margin: 54px 0 0 110px;
+            a {
+                float: left;
+                display: block;
+                width: 230px;
+                height: 65px;
+            }
+            a#cta-quote {
+                background: url('images/cta-quote.jpg') top left no-repeat;
+            }
+            a:hover#cta-quote {
+                background-position: -231px;
+            }
+            a#cta-portfolio {
+                background: url('images/cta-portfolio.jpg') top left no-repeat;
+            }
+            a:hover#cta-portfolio {
+                 background-position: -230px;
+            }
+            span#or {
+                display: block;
+                float: left;
+                width: 117px;
+                height: 65px;
+                background: url('images/or.jpg') top left no-repeat;
+            }
+        }
+    }
+
+}
+footer {
+    height: 79px;
+    background: #292929 url('images/footer.jpg') top left repeat-x;
+    width: 100%;
+    font-family: Calibri, sans-serif, Veranda;
+    font-size: 13px;
+    font-weight: 100;
+    color: #9b9b9b;
+    text-align: center;
+    
+    #footer {
+        margin: 0 auto;
+        position: relative;
+        width: 900px;
+        height: 79px;
+        background: url('images/inner-footer.jpg') top left repeat-x;
+        
+        #push {
+            width: 900px;
+            height: 35px;
+        }
+    }
+}
