@@ -30,7 +30,7 @@
      <h1>Designed to Convert</h1><?php include('inc/contact.php'); ?>
      <div id="h1-border"></div>
      <div id="content">
-          <p>There is a hole in my bucket</p>
+          <p>This is a branch from master</p>
           <section id="cta">
                <a id="cta-quote" href="get-a-quote.php"></a><span id="or"></span><a id="cta-portfolio" href="portfolio.php"></a>
           </section>
